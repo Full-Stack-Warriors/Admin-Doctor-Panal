@@ -1,0 +1,407 @@
+/* =======================Navigation Bar Styleing======================== */
+    .navbar{
+        background: #ffffff;
+        box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+    }
+    .navbar-brand{
+        color: #008aff !important;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .navbar-brand span{
+        color: #111111 !important;
+    }
+    .nav-link{
+        text-align: center;
+        color: #111111 !important;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav-link:hover{
+        color: #008aff !important;
+    }
+    .nav-active{
+        color: #008aff !important;
+    }
+/* ====================X===Navigation Bar Styleing====X==================== */
+
+/* ====================Footer Styleing==================== */
+    .Footer{
+        background-image:  linear-gradient(120deg, rgb(161, 196, 253,0.8) 0%, rgb(194, 233, 251,0.8) 100%),url(assets/footer_bg.png);
+        background-size:cover;
+        background-position: center;
+        padding: 20px;
+    }
+    .Footer .Footer_Logo{
+        text-align: center;
+    }
+    .Footer .Footer_Logo a{
+        color: #008aff !important;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .Footer .Footer_Logo a .fas{
+        margin-right: 5px;
+    }
+    .Footer .Footer_Logo a span{
+        color: #111111 !important;
+    }
+    .Footer .Footer_Logo .footer_social{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .Footer .Footer_Logo .footer_social li {
+        padding:10px;
+    }
+    .Footer .Footer_Logo .footer_social .fa-twitter{
+        color:#1DA1F2;
+    }
+    .Footer .Footer_Logo .footer_social .fa-facebook-f{
+        color:#4267B2;
+    }
+    .Footer .Footer_Logo .footer_social .fa-instagram{
+        color:#ffffff;
+        padding:2px;
+        border-radius: 3px;
+        background:radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    }
+    .Footer .Footer_Menu,.Footer .Footer_Help{
+        text-align: center;
+    }
+    .Footer .Footer_Menu p, .Footer .Footer_Help p{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #333333;
+    }
+    .Footer .Footer_Menu ul{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Footer .Footer_Menu ul li a{
+        font-family: 'Poppins', sans-serif;
+        margin: 0px 10px;
+        color:#444444;
+        font-weight:500;
+    }
+    .Footer .Footer_Help ul li a{
+        font-family: 'Poppins', sans-serif;
+        color:#444444;
+        font-weight:500;
+    }
+    /* =================Developer================ */
+        .Developer{
+            border-top: 1px solid #008aff;
+            margin:0px 10px !important;
+            padding-top: 10px;
+            text-align: center;
+        }
+        .Developer p{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color:#444444;;
+            margin-bottom: 5px;
+        }
+        .Developer a{
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color:#444444;
+        }
+        .Developer a span{
+            color: #008aff;
+        }
+        .Developer a span .fab{
+            margin-right:5px;
+        }
+    /* =================Developer================ */
+
+    /* ==============Footer Responsive============= */
+        @media(max-width:1024px){
+            .Footer{
+                padding:15px;
+            }
+            .Footer .Footer_Menu p, .Footer .Footer_Help p{
+                font-size: 16px;
+            }
+            .Footer .Footer_Menu ul{
+                display:block;
+            }
+            .Footer .Footer_Menu ul li a{
+                font-size: 12px;
+            }
+            .Footer .Footer_Help ul li a{
+                font-size: 12px;
+            }
+            /* =================Developer================ */
+                .Developer{
+                    margin:0px 0px !important;
+                }
+                .Developer p{
+                    font-size: 10px;
+                }
+                .Developer a{
+                    font-size: 10px;
+                }
+            /* =================Developer================ */
+        }
+    /* ===========X===Footer Responsive===X========== */
+/* =================X===Footer Styleing===X================= */
+
+/* ==================Sign Up And Login Form Styling============== */
+    .account_form #account_heading{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .account_form #account_heading h3{
+        font-weight: 600;
+        color: #008aff;
+    }
+    .account_form #account_heading p{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #928f88;
+    }
+    .account_form .account_form_body .row{
+        justify-content:center;
+    }
+    .account_button p{
+        margin-top:10px;
+        font-weight:500;
+        font-family: 'Poppins', sans-serif;
+    }
+    .account_button .btn{
+        background-color: #008aff;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+    }
+    .account_button p a{
+        font-weight:600;
+        color: #008aff;
+    }
+
+    .form-floating label{
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 500;
+        color: #333333 !important;
+    }
+    .form-floating .form-control, .form-floating .form-select {
+        outline:none !important;
+        border: none !important;
+        box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+        background-color:none;
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 500;
+        color: #333333 !important;
+    }
+    .fade p{
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 500;
+    }
+    .alert-heading {
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 600;
+    }
+    /* ===============Responsive========= */
+        @media(max-width:768px){
+            .account_form #account_heading h3{
+                font-size:20px;
+            }
+            .account_form #account_heading p{
+                font-size:14px;
+            }
+            .form-floating textarea {
+                font-size:10px!important;
+            }
+        }
+    /* ===============Responsive========= */
+/* ==============X====Sign Up And Login Form Styling===X=========== */
+
+/* ===================Table=============== */
+        .table_detailes .table_heading{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .table_detailes .table_heading h3{
+            font-weight: 600;
+            color: #008aff;
+        }
+        .table_detailes .table_heading p{
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #928f88;
+        }
+        .data_table th{
+            text-align: center;
+        }
+        .data_table tr td{
+            font-family: 'Poppins', sans-serif !important;
+            color: #333333;
+        }
+        .data_table .fa-reply, .data_table .fa-user-edit{
+            color: #1DA1F2;
+            font-size: 22px;
+            cursor: pointer;
+            padding:0px 5px;
+        }
+        .data_table .fa-trash{
+            color: red;
+            font-size: 22px;
+            cursor: pointer;
+            padding: 0px 5px;
+        }
+/* ================X===Table===X============ */
+
+/* ===============Error Page=============== */
+    .Error__Page{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        font-weight:bold;
+        background-image: linear-gradient(to right, rgb(226, 255, 254) 50%, #fff 50%);
+        font-family: 'Poppins', sans-serif;
+    }
+    .Error__Page h1{
+        font-size:80px;
+        color:red;
+        font-weight: 600;
+    }
+    .Error__Page p{
+        font-size:20px;
+        color:#008aff;
+        font-weight: 600;
+    }
+    .Error__Page .btn{
+        background-color: #008aff;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+    }
+/* ============X===Error Page===X============ */
+
+/* ===========Dashboard Analytic Styled========= */
+    .dashboard .dashboard_card{
+        background-color: #ffffff;
+        box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+        padding:20px;
+        margin: 8px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .dashboard .dashboard_card .dashboard_card_body{
+        font-family: 'Poppins', sans-serif !important;
+    }
+    .dashboard .dashboard_card .dashboard_card_body h4{
+        color: #444444;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5px 0px;
+        font-weight: 600;
+    }
+    .dashboard .dashboard_card .dashboard_card_body h2{
+        color: #008aff;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5px 0px;
+        font-weight: 600;
+    }
+/* =========X==Dashboard Analytic Styled==X======= */
+/* =========Profile Page Styling============= */
+.profile_page{
+    padding:20px;
+    box-shadow:  0 4px 16px rgb(0 0 0 / 10%);
+    border-radius:5px;
+}
+.profile_page .profile_heding{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.profile_page .profile_heding h3{
+    color: #333333;
+    font-weight: 600;
+}
+.profile_page .profile_heding h3 span{
+    color: #008aff;
+}
+.profile_page .profile_heding p{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #928f88;
+}
+
+/* ==========Profile============ */
+    .profile_page .profile{
+        justify-content: center;
+    }
+    .profile_page .profile ul li{
+        margin-top: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #777777;
+        font-size:18px;
+    }
+    .profile_page .profile ul li span{
+        color: #444444;
+        margin-left:5px;
+    }
+/* ========X==Profile==X========== */
+
+/* ==========Quection Section========== */
+    .profile_page .quection_profile{
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+    }
+    .profile_page .quection_profile h3{
+        text-align: center;
+        color: #333333;
+        font-weight: 600;
+    }
+    .profile_page .quection_profile h3 span{
+        color: #008aff;
+    }
+    .profile_page .quection_profile p{
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #928f88;
+    }
+    .profile_page .quection_profile .accordion-flush .accordion-item .accordion-button {
+        font-weight: 600;
+        color: #333333;
+    }
+    .profile_page .quection_profile .accordion-body {
+        font-weight:500;
+        color:#444444;
+        text-align: justify;
+    }
+    .add_Profile{
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        background-color: #008aff;
+        border:none;
+    }
+    .add_Profile:hover{
+        font-weight: 500;
+        background-color: #008aff;
+    }
+    /* ===============Responsive========= */
+        @media(max-width:768px){
+            .profile_page .profile_heding h3, .profile_page .quection_profile h3{
+                font-size:20px;
+            }
+            .profile_page .profile_heding p, .profile_page .quection_profile p{
+                font-size:14px;
+            }
+            .profile_page .profile ul li{
+                font-size:12px;
+            }
+        }
+    /* ===============Responsive========= */
+/* =======X==Profile Page Styling==X=========== */
+
